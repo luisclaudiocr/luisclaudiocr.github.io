@@ -1,0 +1,22 @@
+.formation {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: auto 1fr;
+  margin: 4rem auto;
+  padding: 3rem;
+  border: 0.1rem solid #f7f7f7;
+  align-items: center;
+  justify-items: center;
+  /* background-color: #04748c; */
+}
+
+.formation-title {
+  font-weight: bold;
+  font-size: 5ch;
+  padding-right: 1.5rem;
+  border-right: 0.2rem #000 solid;
+}
+
+.formation-course {
+  padding-left: 1.5rem;
+}

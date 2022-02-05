@@ -1,0 +1,43 @@
+:root {
+  --background: #191919;
+  --color-1: #ff7800;
+  --color-2: #ffffff;
+  --color-3: #eeffee;
+  --color-4: #141414;
+  --border-color: #313131;
+  --shadow: #616161;
+  --font-title: 5.9rem;
+  --font-s1: 0.9rem;
+  --font-s1-mob: 0.8rem;
+}
+.color-1 {
+  color: var(--color-1);
+}
+.color-2 {
+  color: var(--color-2);
+}
+.color-3 {
+  color: var(--color-3);
+}
+.border-color {
+  color: var(--border);
+}
+.font-s1 {
+  font-size: var(--font-s1);
+}
+.font-s1 {
+  font-size: var(--font-s1-mob);
+}
+.grid {
+  display: grid;
+}
+.flex {
+  display: flex;
+}
+.width {
+  max-width: 1000px;
+}
+
+.font-title {
+  font-size: var(--font-title);
+}

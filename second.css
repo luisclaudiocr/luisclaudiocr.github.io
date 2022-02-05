@@ -4,19 +4,45 @@
   grid-template-columns: auto 1fr;
   margin: 4rem auto;
   padding: 3rem;
-  border: 0.1rem solid #f7f7f7;
+  border: 0.1rem solid var(--main-border);
   align-items: center;
   justify-items: center;
-  /* background-color: #04748c; */
 }
 
 .formation-title {
-  font-weight: bold;
+  font-weight: 300;
   font-size: 5ch;
+  color: var(--secondary-color);
   padding-right: 1.5rem;
-  border-right: 0.2rem #000 solid;
+  border-right: 0.2rem solid var(--main-border);
 }
 
 .formation-course {
   padding-left: 1.5rem;
+  color: var(--font-color2);
+}
+
+@media (max-width: 735px) {
+  .formation {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.2rem 0rem;
+  }
+  .formation-title {
+    border-right: none;
+    padding: 0px;
+  }
+  .formation-course {
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 485px) {
+  .formation-title {
+    font-size: 2.6rem;
+  }
+  .formation-course {
+    font-size: var(--mobfont-s1);
+  }
 }

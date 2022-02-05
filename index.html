@@ -5,42 +5,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="./style.css">
   <title>Portfólio</title>
 </head>
 
 <body>
-  <header class="header">
-    <img class="logo" src="img/logo.svg" alt="logo">
+  <header class="header grid">
+    <svg class="logo color-1" width="51" height="69" viewBox="0 0 51 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.5 52L23 0.5V44L50 68L1.5 52Z" fill="#FF7800" />
+      <path d="M26.5 18L35.5 5V34L50 57L26.5 39.5V18Z" fill="#FF7800" />
+      <path d="M1.5 52L23 0.5V44L50 68L1.5 52Z" stroke="#FF7800" stroke-opacity="0.4" />
+      <path d="M26.5 18L35.5 5V34L50 57L26.5 39.5V18Z" stroke="#FF7800" stroke-opacity="0.4" />
+    </svg>
     <nav>
-      <ul class="menu">
+      <ul class="menu flex">
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div>
-      <h1 class="title">Desenvolvedor <br>Front End &<br> Web3</h1>
+      <h1 class="title color-3 grid">Desenvolvedor <br>Front End &<br> Web3</h1>
     </div>
-    <section class="main">
+    <section class="main grid width">
       <h2 class="tecnologies">Tecno<br>lo<br>gias</h2>
-      <div class="container-tecnologies">
-        <p class="tecnologies-title">Olá, me chamo Luís Cláudio<br> e desenvolvo nas seguintes tecnologias.</p>
-        <ul class="tecnologies-list">
-          <img src="img/js-icon.png" alt="">
-          <li>JavaScript</li>
-          <img src="img/react-icon.png" alt="">
-          <li>ReactJS</li>
-          <img src="img/rescript-icon.png" alt="">
-          <li>ReScript</li>
-          <img src="img/solidity-icon.png" alt="">
-          <li>Solidity</li>
-        </ul>
+      <div class="container-tecnologies grid">
+        <p class="tecnologies-p1 color-3 font-s1-mob">Olá, me chamo Luís Cláudio<br> e desenvolvo nas seguintes tecnologias.</p>
+        <div class="tecnologies-list grid">
+          <div>
+            <img src="img/js-icon.png" alt="" width="32px">
+            <span>JavaScript</span>
+          </div>
+          <div>
+            <img src="img/react-icon.png" alt="" width="32px">
+            <span>ReactJS</span>
+          </div>
+          <div>
+            <img src="img/typescript-icon.svg" alt="" width="32px">
+            <span>TypeScript</span>
+          </div>
+          <div>
+            <img src="img/solidity-icon.png" alt="" width="32px">
+            <span>Solidity</span>
+          </div>
+        </div>
       </div>
     </section>
-    <span class="open">#opentowork</span>
+    <span class="open width">#opentowork</span>
     <section>
       <div class="formation">
         <h3 class="formation-title" id="formacao">Formação</h3>
@@ -52,16 +69,17 @@
     <div class="footer-container">
       <div class="footer-contato">
         <h4 class="contato">Contato</h4>
-        <span>E-mail</span>
         <span>luisclaudiocr1@gmail.com</span>
       </div>
       <div class="footer-redes">
         <h4 class="redes">Redes Sociais</h4>
         <div class="redes-list">
-          <img src="img/twitter-icon.png" alt="">
+          <img src="img/twitter-icon.png" alt="" width="32px">
           <a href="https://twitter.com/seaasnn" target="_blank">Twitter</a>
-          <img src="img/github-icon.png" alt="">
-          <a href="">Github</a>
+          <img src="img/github-icon.png" alt="" width="32px">
+          <a href="https://github.com/luisclaudiocr" target="_blank">Github</a>
+          <img src="img/linkedin.png" alt="" width="32px">
+          <a href="https://www.linkedin.com/in/luisclaudiocorrea/" target="_blank">Linkedin</a>
         </div>
       </div>
     </div>

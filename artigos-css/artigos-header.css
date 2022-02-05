@@ -1,0 +1,14 @@
+.header {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 0.1rem solid var(--border-color);
+}
+.logo {
+  fill: var(--color-1);
+}
+.logo:hover {
+  transition: 0.8s;
+  fill: #a54d00;
+}

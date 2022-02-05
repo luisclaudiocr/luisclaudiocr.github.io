@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+  object-fit: contain;
+}
+.title-artigos {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.artigos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.artigos h2 {
+  padding: 1rem 0;
+}

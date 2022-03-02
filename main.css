@@ -62,7 +62,7 @@
 }
 
 .tecnologies-list div:nth-child(1) span {
-  background-color: #f0db4f;
+  background-color: #cc0000;
   color: var(--color-4);
 }
 .tecnologies-list div:nth-child(2) span {
